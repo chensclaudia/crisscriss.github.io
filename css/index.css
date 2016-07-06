@@ -136,8 +136,12 @@ a:hover {
 }
 @media only screen and (max-device-width: 833px) {
     .contact {
-        font-size: 18px;
-        padding-left: 0%;
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+        margin: 0px;
+        
     }
     .contact ul {
         margin-left: 3em;
@@ -152,7 +156,7 @@ a:hover {
         margin-top: 2rem;
     }
     header .logo img {
-        padding-top: 2rem;
+        padding-top: 3rem;
         padding-bottom: 1rem;
     }
     span {
@@ -202,7 +206,7 @@ a:hover {
     position: relative;
     top: 50%;
     height: 60%;
-    font-size: 54px;
+    font-size: 32px;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
 }
@@ -221,7 +225,7 @@ a:hover {
     min-height: 54px;
 }
 .overlay ul li a {
-    font-weight: 300;
+    font-weight: 100;
     display: block;
     color: #fff;
     -webkit-transition: color 0.2s;
