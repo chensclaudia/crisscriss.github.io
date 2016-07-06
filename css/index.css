@@ -232,7 +232,8 @@ a:hover {
 }
 .overlay ul li a:hover,
 .overlay ul li a:focus {
-    color: #000;
+    color: #f8e2ca;
+    background-color: transparent;
 }
 .overlay-hugeinc {
     opacity: 0;
