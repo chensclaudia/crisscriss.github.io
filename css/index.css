@@ -1,0 +1,129 @@
+@import "fonts.css";
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clearfix:before,
+.clearfix:after {
+    content: '';
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+html,
+body {
+    height: 100%;
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body {
+    font-family: 'Sofia Pro';
+    color: #000;
+    background: linear-gradient(90deg, #fff 50%, #f4eeea 50%);
+}
+header .logo img {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+}
+span {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 4rem;
+    font-size: 20px;
+}
+.content-main {
+    font-family: 'GT';
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+}
+.content-main u {
+    border-bottom: 1px dashed #7f8454;
+    text-decoration: none;
+}
+.content-main:hover u {
+    color: #044d92;
+    background-color: #f8e2ca;
+}
+.contact {
+    font-family: 'Sofia Pro Normal';
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 40%;
+    margin-bottom: 3rem;
+    font-size: 26px;
+}
+.contact ul {
+    list-style: none;
+    line-height: 2.8rem;
+}
+h1 {
+    font-family: 'Sofia Pro';
+    line-height: 2.3rem;
+}
+a {
+    color: #044d92;
+    text-decoration: none;
+    border-bottom: 1px dashed #7f8454;
+}
+a:hover {
+    background-color: #f8e2ca;
+}
+@media only screen and (max-device-width: 833px) {
+    .contact {
+        font-size: 18px;
+        padding-left: 0%;
+    }
+    .contact ul {
+        margin-left: 3em;
+        margin-top: -.5em;
+        text-align: center;
+        line-height: 1.5em;
+    }
+    .content-main {
+        font-size: 18px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 2rem;
+    }
+    header .logo img {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    span {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 24px;
+        line-height: 1rem;
+        margin-left: 1rem;
+        margin-right: -2rem;
+    }
+    a {
+        font-size: 16px;
+        line-height: -2rem;
+    }
+}
+@media only screen and (max-device-width: 350px) {
+    .contact ul {
+        line-height: 2rem;
+        padding-right: 120px;
+    }
+}
