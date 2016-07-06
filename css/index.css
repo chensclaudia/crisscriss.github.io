@@ -50,7 +50,6 @@ span {
     position: absolute;
     height: 2px;
     width: 24px;
-    ;
     background: #d3531a;
     border-radius: 2px;
     opacity: 1;
@@ -184,7 +183,7 @@ a:hover {
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(75, 75, 75, 0.9);
+    background: rgba(75, 75, 75, 0.95);
 }
 .overlay .overlay-close {
     width: 80px;
@@ -216,6 +215,7 @@ a:hover {
     display: inline-block;
     height: 100%;
     position: relative;
+ 
 }
 .overlay ul li {
     display: block;
@@ -227,13 +227,14 @@ a:hover {
     font-weight: 100;
     display: block;
     color: #fff;
+    border: none;
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 .overlay ul li a:hover,
 .overlay ul li a:focus {
     color: #f8e2ca;
-    background-color: transparent;
+    background-color: transparent!important;
 }
 .overlay-hugeinc {
     opacity: 0;
