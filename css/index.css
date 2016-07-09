@@ -29,7 +29,7 @@ body {
 body {
     font-family: 'Sofia Pro';
     color: #000;
-    background: linear-gradient(90deg, #fff 50%, #f4eeea 50%);
+    background: linear-gradient(70deg, #fff 50%, #EDF2FB 50%);
 }
 header .logo img {
     display: flex;
@@ -101,12 +101,12 @@ span {
     margin-top: 3rem;
 }
 .content-main u {
-    border-bottom: 1px solid #7f8454;
+    border-bottom: 1px solid #000;
     text-decoration: none;
 }
 .content-main:hover u {
     color: #044d92;
-    background-color: #f8e2ca;
+    background-color: #FFF2E9;
 }
 .contact {
     font-family: 'Sofia Pro Normal';
@@ -131,7 +131,7 @@ a {
     border-bottom: 1px dashed #000;
 }
 a:hover {
-    background-color: #f8e2ca;
+    background-color: #FFF2E9;
 }
 @media only screen and (max-device-width: 833px) {
     .contact {
