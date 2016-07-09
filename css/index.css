@@ -101,7 +101,7 @@ span {
     margin-top: 3rem;
 }
 .content-main u {
-    border-bottom: 1px dashed #7f8454;
+    border-bottom: 1px solid #7f8454;
     text-decoration: none;
 }
 .content-main:hover u {
