@@ -349,3 +349,24 @@ a:hover {
     max-width: 1366px;
     margin: 0 auto;
 }
+
+@media only screen and (max-device-width: 833px){
+    
+   .skills li{
+   font:  18px 'Sofia Pro Normal', 'Helvetica', sans-serif;
+    vertical-align: baseline;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding-right: 40px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    display: list-item;
+    line-height: 3em;
+}
+.skills ul{
+    list-style: none;
+} 
+    
+}
