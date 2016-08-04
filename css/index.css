@@ -29,7 +29,7 @@ body {
 body {
     font-family: 'Sofia Pro';
     color: #000;
-    background: linear-gradient(70deg, #fff 50%, #EDF2FB 50%);
+    background: linear-gradient(90deg, #fff 50%, #EDF2FB 50%);
 }
 header .logo img {
     display: flex;
@@ -101,7 +101,7 @@ span {
     margin-top: 3rem;
 }
 .content-main u {
-    border-bottom: 1px solid #000;
+    border-bottom: 0px solid #000;
     text-decoration: none;
 }
 .content-main:hover u {
@@ -283,4 +283,66 @@ a:hover {
     margin-top: -11rem;
     cursor: pointer;
     /*! width: 30%; */
+}
+
+
+.skills {
+    color: #000;
+    background: #EDF2FB;
+    margin-top: 5em;
+    text-align: center;
+    padding: 30px 0;
+    min-height: 30em;
+
+}
+.skills p {
+    font:800 50px/52px 'Noc', 'Helvetica', sans-serif;
+    color: #000;
+    display: flex;
+    justify-content: center;
+}
+.skills li{
+   font:  26px 'Sofia Pro Normal', 'Helvetica', sans-serif;
+     vertical-align: baseline;
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    display: list-item;
+    line-height: 3em;
+}
+.skills ul{
+    list-style: none;
+}
+.center {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.work{
+    background: #D7E7EA;
+    min-height: 30em;
+    padding-top: 5em;
+
+}
+.work h1{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px auto;
+    padding-left: 2em;
+    font-family: 'Noc';
+}
+.work p{
+    font: 16px/10px 'Sofia Pro Normal', 'Helvetica', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+}
+.wrapper {
+    overflow: auto;
+    width: 95%;
+    max-width: 1366px;
+    margin: 0 auto;
 }
