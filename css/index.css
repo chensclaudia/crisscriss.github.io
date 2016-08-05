@@ -103,6 +103,8 @@ span {
 .content-main u {
     border-bottom: 0px solid #000;
     text-decoration: none;
+    color: #044d92;
+    background-color: #FFF2E9;
 }
 .content-main:hover u {
     color: #044d92;
