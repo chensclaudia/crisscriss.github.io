@@ -29,7 +29,7 @@ body {
 body {
     font-family: 'Sofia Pro';
     color: #000;
-    background: linear-gradient(90deg, #fff 50%, #EDF2FB 50%);
+    background: linear-gradient(70deg, #fff 50%, #EDF2FB 50%);
 }
 header .logo img {
     display: flex;
@@ -326,7 +326,7 @@ a:hover {
 }
 
 .work{
-    background: #D7E7EA;
+    background: #EDF2FB;
     min-height: 30em;
     padding-top: 5em;
 
