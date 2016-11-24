@@ -159,11 +159,15 @@ a {
     display: flex;
     justify-content: center;
 }
-.landing span{
+.landing h1{
     font-family: 'west';
     font-size: 4em;
 }
+.landing span{
+    font-family: 'Sofia Pro';
+    font-size: 2em;
 
+}
 
 @media only screen and (max-device-width: 833px) {
 
