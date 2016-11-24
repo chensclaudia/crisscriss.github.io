@@ -45,5 +45,13 @@
 
 }
 
+@font-face {
+  font-family: 'west';
+  src: url('../fonts/Westfalia-Regular.otf'); 
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 
