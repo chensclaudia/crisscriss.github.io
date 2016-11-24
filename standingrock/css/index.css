@@ -29,7 +29,7 @@ body {
 body {
     font-family: 'Sofia Pro';
     color: #000;
-    background: #fccb2f;
+    background: #F1E8C4;
 }
 header .logo img {
     display: flex;
@@ -50,11 +50,13 @@ a {
 
 }
 .header {
-    height: 100px;
-    padding: 40px 0;
+    height: 1em;
+    padding: 35px 0;
     position: relative;
     width: 100%;
-    z-index: 10
+    z-index: 10;
+    background-color: #fff;
+    opacity: 0.9;
 }
 
 .header__logo {
@@ -74,13 +76,13 @@ a {
 .header__nav {
     display: inline-block;
     float: right;
-    position: relative
+    position: relative;
 }
 
 .header__nav ul {
     float: right;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 .header__nav__item {
@@ -94,7 +96,7 @@ a {
 }
 
 .header__nav__item:not(:last-of-type):after {
-    color: #00f;
+    color: #bf2d2f;
     content: '/';
     position: relative;
     right: -10px;
@@ -164,7 +166,7 @@ a {
     
 }
 .landing span{
-    font-family: 'Sofia Pro';
+    font-family: 'Sofia Pro Normal';
     font-size: 1em;
     display: flex;
     justify-content: center;
@@ -180,7 +182,7 @@ a {
     line-height: .1;
 }
 .landing h2{
-    font-family: 'Sofia Pro';
+    font-family: 'Sofia Pro Normal';
     font-size: 1.5em;
     display: flex;
     justify-content: center;
