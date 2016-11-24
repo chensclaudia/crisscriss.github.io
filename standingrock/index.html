@@ -47,7 +47,7 @@
 
     <div class="landing">
     <span>In solidarity with</span>
-    <h1>STANDING ROCK</h1>
+    <span class="element"></span>
     <h2>A collection of resources, and brief history on the events at Standing Rock</h2>
         <div class="content">
             <span> Timeline of Events</span>
@@ -60,7 +60,17 @@
         </div>
     </div>
 
-
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/typed.js"></script>
+<script>
+    $(function(){
+        $(".element").typed({
+            strings: ["Fae makes . .", "music.", "short films.", "art.","Meet Fae."],
+            typeSpeed: 0
+        });
+    });
+</script>
 </body>
+
 
 </html>
