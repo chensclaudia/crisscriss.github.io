@@ -165,7 +165,7 @@ a {
    
     
 }
-.landing span{
+.landing h1{
     font-family: 'Sofia Pro Normal';
     font-size: 1em;
     display: flex;
@@ -174,8 +174,8 @@ a {
     line-height: .01em;
 
 }
-.landing h1{
-    font-family: 'west';
+.landing span{
+    font-family: 'Sofia Pro';
     font-size: 5em;
     display: flex;
     justify-content: center;
