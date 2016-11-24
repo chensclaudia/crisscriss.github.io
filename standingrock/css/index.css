@@ -179,7 +179,6 @@ a {
     font-size: 5em;
     display: flex;
     justify-content: center;
-    line-height: .1;
 }
 .landing h2{
     font-family: 'Sofia Pro Normal';

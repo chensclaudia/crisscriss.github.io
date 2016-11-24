@@ -97,12 +97,6 @@
                 }, self.startDelay);
             }
 
-            , build: function(){
-                // Insert cursor
-                this.el.after("<span id=\"typed-cursor\">|</span>");
-                this.init();
-            }
-
             // pass current string state to each function
             , typewrite: function(curString, curStrPos){
 
