@@ -212,7 +212,11 @@ a {
     cursor: pointer;
     color: #000;
 }
+.map img  {
 
+    width: 100%;
+    height: auto;
+}
 
 
 @media only screen and (max-device-width: 833px) {
