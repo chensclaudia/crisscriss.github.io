@@ -247,9 +247,10 @@ a {
     top: 0;
     bottom: 0;
     width: 10px;
-    background: #afdcf8;
+    background: #6c7a89;
     left: 20%;
     margin-left: -10px;
+    border-radius: 25px;
 }
 
 /* The date/time */
@@ -267,22 +268,22 @@ a {
 
 .cbp_tmtimeline > li .cbp_tmtime span:first-child {
     font-size: 0.9em;
-    color: #bdd0db;
+    color: #000;
 }
 
 .cbp_tmtimeline > li .cbp_tmtime span:last-child {
     font-size: 2.9em;
-    color: #3594cb;
+    color: #ac4c5e;
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
-    color: #6cbfee;
+    color: #ac4c5e;
 }
 
 /* Right content */
 .cbp_tmtimeline > li .cbp_tmlabel {
     margin: 0 0 15px 25%;
-    background: #3594cb;
+    background: #58828b;
     color: #fff;
     padding: 2em;
     font-size: 1.2em;
@@ -293,7 +294,7 @@ a {
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
-    background: #6cbfee;
+    background: #949D9A;
 }
 
 .cbp_tmtimeline > li .cbp_tmlabel h2 { 
@@ -311,19 +312,20 @@ a {
     width: 0;
     position: absolute;
     pointer-events: none;
-    border-right-color: #3594cb;
+    border-right-color: #58828b;
     border-width: 10px;
     top: 10px;
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
-    border-right-color: #6cbfee;
+    border-right-color: #949d9a;
 }
+
 
 /* The icons */
 .cbp_tmtimeline > li .cbp_tmicon {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -334,15 +336,15 @@ a {
     -webkit-font-smoothing: antialiased;
     position: absolute;
     color: #fff;
-    background: #46a4da;
+    background: #6c7a89;
     border-radius: 50%;
-    box-shadow: 0 0 0 8px #afdcf8;
+    box-shadow: 0 0 0 6px #bbc0c5;
     text-align: center;
+    er; */
     left: 20%;
     top: 0;
-    margin: 0 0 0 -25px;
+    margin: 0 0 0 8.40em;
 }
-
 
 
 /* Example Media Queries */
