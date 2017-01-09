@@ -1,0 +1,99 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Quando);
+
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0;}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	color: #fff;
+	background: #FFD770;
+	overflow-x: hidden;
+}
+
+
+/* Header */
+
+.header{
+	font-family: 'Quando', serif;
+	background: #fff;
+	/* background: rgba(255, 255, 255, 0.4); */
+	width: 100%;
+	line-height: 64px;
+}
+
+.header a.left{
+
+	color: #69B1A9;
+	margin-left:40px;
+	margin-right: 40px;
+
+}
+
+.header a.right{
+
+	color: #69B1A9;
+	margin-left:40px;
+	margin-right: 40px;
+
+}
+
+.header a:hover{
+	color: #B14943;
+
+}
+
+
+.header span.left{
+
+	color: #B14943;
+	margin-left:40px;
+}
+.header span.right{
+	color: #B14943;
+	margin-right:40px;
+
+}
+
+
+.header li{
+
+	display: inline;
+}
+
+@media screen and (max-width: 750px) {
+	.header a.left{
+		display: none !important;
+
+	}
+	.header a.right{
+		display: none !important;
+	}
+
+}
+
+.form-wrapper {
+	text-align: center;
+	overflow-x: hidden;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.park-wrapper {
+
+	width: 100%;
+	overflow-x: hidden; 
+}
+
+.park-wrapper img{
+
+	width:100%;
+	height: auto;
+
+}
+
