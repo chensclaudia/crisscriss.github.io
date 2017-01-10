@@ -20,31 +20,39 @@ body {
 /* Header */
 
 .header{
-	font-family: 'Quando', serif;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
 	background: #fff;
 	/* background: rgba(255, 255, 255, 0.4); */
 	width: 100%;
 	line-height: 64px;
 }
 
+.header img{
+	
+	padding-top: 1em;
+  margin-bottom: -1em;
+}
 .header a.left{
 
-	color: #69B1A9;
+	color: #818285;
 	margin-left:40px;
 	margin-right: 40px;
-
+  text-decoration: none;
 }
 
 .header a.right{
 
-	color: #69B1A9;
+	color: #818285;
 	margin-left:40px;
 	margin-right: 40px;
+	text-decoration: none;
+
 
 }
 
 .header a:hover{
-	color: #B14943;
+	color: #FFCC48;
+	text-decoration: underline;
 
 }
 
