@@ -28,9 +28,10 @@ body {
 }
 
 .header img{
-	
-	padding-top: 1em;
-  margin-bottom: -1em;
+  margin-top: -1.5em;
+  margin-bottom: -2em;
+	max-height: 10em;
+	max-width: 10em;
 }
 .header a.left{
 
