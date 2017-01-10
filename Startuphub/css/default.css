@@ -83,7 +83,14 @@ body {
 	.header a.right{
 		display: none !important;
 	}
-
+  .header img{
+  margin-top: -1.5em;
+  margin-bottom: -2em;
+	margin-left: 2em;
+	max-height: 8em;
+	max-width: 8em;
+	
+}
 }
 
 .form-wrapper {
