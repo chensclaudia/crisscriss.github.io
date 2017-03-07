@@ -7,7 +7,9 @@
 body {
 	font-family: 'Inconsolata', monospace;
 	color: #080811;
-	background: #f0f0f0;
+	background: #fff;
+	max-width: 100%;
+    overflow-x: hidden;
 }
 
 a {
@@ -84,6 +86,52 @@ a:focus {
 	}
 }
 
+.title-header {
+	font-family: 'Inconsolata', monospace;
+	background-color: #ffb13d;
+	margin:auto;
+	min-height: 3em;
+	min-width: 3em;
+	font-size: 3em;
+	display: flex;
+	justify-content: center;
+}
+.title-header span{
+	margin: 1em;
+}
+
+.header-menu{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: right;
+	margin: auto;
+	background-color: #ffdd80;
+	padding-top: 15px;
+	min-width: 40em;
+	min-height: 3em;
+	font-weight: 900;
+	color: red;
+	
+}
+.header-menu a{
+	font-family:  'Inconsolata', monospace;
+	color: #000;
+  font-style: normal;
+	font-weight: 800;
+	display: flex;
+	justify-content: center;
+	padding-left: 1em;
+	padding-right: 1em;
+  
+	
+}
+.header-menu a:hover{
+	color: red;
+}
+
+.menushit hover{
+	color: #fff;
+}
 .section {
 	position: relative;
 	display: -webkit-box;
@@ -104,8 +152,7 @@ a:focus {
 }
 
 .section--flow {
-	padding: 3em 0;
-	min-height: 100vh;
+	padding: 2em 0;
 }
 
 .section--related {
@@ -223,8 +270,78 @@ a:focus {
 
 
 /* Content */
+.whatis img{
+	display: flex;
+	justify-content: center;
+	margin: 5em;
+}
+.content1{
+	background-color: #bfbfbf;
+    margin: -3em 50px 10px 120px;
+	/*
+        top margin is 25px
+        right margin is 50px
+        bottom margin is 75px
+        left margin is 100px */
+
+	max-width: 1000px;
+	min-height: 400px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-flex: 0;
+	-ms-flex: none;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: flex-start;
+
+	position: relative;
+}
+.content1 h1{
+  flex-basis: 100%;
+	justify-content: center !important;
+	
+	
+	
+}
+.coloryellow{
+	background-color: yellow;
+	margin-top: 0px;
+}
+.colororange{
+	background-color: orange;
+	margin-top: 0px;
+}
+.content1 span{
+	font-size: 1.5em;
+	line-height: 1.5em;
+	display: flex;
+	justify-content: center;
+	margin: 30px 20px 20px 30px;
+	flex-basis: 100%;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+  align-content: baseline;
+}
+.content1 img{
+	max-width: 1000px;
+	max-height: 1000px;
+}
+.content1 br{
+	margin: .5em;
+}
+
+.content b{
+	color: red;
+	display: flex;
+	justify-content: center !important;
+}
 
 .content {
+	
+	background-color: white;
 	margin: auto;
 	max-width: 1200px;
 	min-height: 600px;
@@ -248,13 +365,18 @@ a:focus {
 	margin: 0;
 	pointer-events: none;
 	bottom: 10%;
-	left: 35%;
+	left: 40%;
 }
 
 .title--left {
 	left: auto;
-	right: 35%;
+	right: 85%;
 }
+.title--left2 {
+	left: auto;
+	right: 65%;
+}
+
 
 .text {
 	font-size: 1.15em;
