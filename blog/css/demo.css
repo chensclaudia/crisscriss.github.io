@@ -78,6 +78,19 @@ section p span{
 	font-size: 5em;
 	line-height: 1;
 	color: yellow;
+
+}
+
+.codrops-header h3{
+	display: flex;
+	justify-content: flex-start;
+	max-width: 20em;
+	font-weight: 700;
+	font-size: 2em;
+	line-height: 1;
+	color: white;
+	text-shadow: 2px 2px #ff0000;
+}
 }
 
 .codrops-header h1 span {
