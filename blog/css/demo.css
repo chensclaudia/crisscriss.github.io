@@ -162,6 +162,70 @@ section p span{
 	min-height: 30em;
 	
 }
+.header-1{
+	padding: 5em 2em;
+	letter-spacing: -1px;
+	background-image: url("../img/ZineWeb/1.png");
+	min-height: 37em;
+	background-size: 100% 100%;
+
+	
+}
+.header-2{
+	padding: 5em 2em;
+	letter-spacing: -1px;
+	background-image: url("../img/ZineWeb/2.png");
+	min-height: 37em;
+	background-size: 100% 100%;
+}
+.header-3{
+	padding: 5em 2em;
+	letter-spacing: -1px;
+	background-image: url("../img/ZineWeb/3.png");
+	min-height: 37em;
+	background-size: 100% 100%;
+	
+}
+.header-4{
+	padding: 5em 2em;
+	letter-spacing: -1px;
+	background-image: url("../img/ZineWeb/4.png");
+	min-height: 37em;
+	background-size: 100% 100%;
+	
+}
+.header-5{
+	padding: 5em 2em;
+	letter-spacing: -1px;
+	background-image: url("../img/ZineWeb/5.png");
+	min-height: 37em;
+	background-size: 100% 100%;
+	
+}
+.header-6{
+	padding: 5em 2em;
+	letter-spacing: -1px;
+	background-image: url("../img/ZineWeb/6.png");
+	min-height: 37em;
+	background-size: 100% 100%;
+	
+}
+.header-7{
+	padding: 5em 2em;
+	letter-spacing: -1px;
+	background-image: url("../img/ZineWeb/7.png");
+	min-height: 37em;
+	background-size: 100% 100%;
+	
+}
+.header-8{
+	padding: 5em 2em;
+	letter-spacing: -1px;
+	background-image: url("../img/ZineWeb/8.png");
+	min-height: 37em;
+	background-size: 100% 100%;
+	
+}
 /* To Navigation Style */
 .codrops-top {
 	width: 100%;
