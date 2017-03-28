@@ -32,7 +32,6 @@ a {
 	color: #404d5b;
 	text-decoration: none;
 	outline: none;
-	cursor: default
 }
 
 h2{
@@ -165,65 +164,80 @@ section p span{
 .header-1{
 	padding: 5em 2em;
 	letter-spacing: -1px;
-	background-image: url("../img/ZineWeb/1.png");
-	min-height: 37em;
-	background-size: 100% 100%;
-
+	background-image: url("../img/ZineWeb/1.png") ;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	
 }
 .header-2{
 	padding: 5em 2em;
 	letter-spacing: -1px;
 	background-image: url("../img/ZineWeb/2.png");
-	min-height: 37em;
-	background-size: 100% 100%;
+	  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .header-3{
 	padding: 5em 2em;
 	letter-spacing: -1px;
 	background-image: url("../img/ZineWeb/3.png");
-	min-height: 37em;
-	background-size: 100% 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	
 }
 .header-4{
 	padding: 5em 2em;
 	letter-spacing: -1px;
 	background-image: url("../img/ZineWeb/4.png");
-	min-height: 37em;
-	background-size: 100% 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	
 }
 .header-5{
 	padding: 5em 2em;
 	letter-spacing: -1px;
 	background-image: url("../img/ZineWeb/5.png");
-	min-height: 37em;
-	background-size: 100% 100%;
+	  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	
 }
 .header-6{
 	padding: 5em 2em;
 	letter-spacing: -1px;
 	background-image: url("../img/ZineWeb/6.png");
-	min-height: 37em;
-	background-size: 100% 100%;
+	  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	
 }
 .header-7{
 	padding: 5em 2em;
 	letter-spacing: -1px;
 	background-image: url("../img/ZineWeb/7.png");
-	min-height: 37em;
-	background-size: 100% 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	
 }
 .header-8{
 	padding: 5em 2em;
 	letter-spacing: -1px;
 	background-image: url("../img/ZineWeb/8.png");
-	min-height: 37em;
-	background-size: 100% 100%;
+	  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	
 }
 /* To Navigation Style */
@@ -324,6 +338,14 @@ section p span{
 		font-size: 50%;
 		padding: 6em 6.6em;
 	}
+	section p {
+	font-size: 1.5em;
+	line-height: 1.518;
+	max-width: 30em;
+	margin: 0 auto;
+}
+	
+	
 }
 
 @media screen and (max-width: 25em) {
