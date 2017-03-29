@@ -402,8 +402,63 @@ section p span{
 	line-height: 1.518;
 	max-width: 30em;
 	margin: 0 auto;
+
 }
+	.header-1{
+	padding-right: 40%;
+	letter-spacing: -1px;
+	background-image: url("../img/ZineWeb/1.png");
+	min-height:50vh;
+	width: 70vh;
 	
+	}	
+	.header-2{
+	padding-right: 40%;
+	letter-spacing: -1px;
+	background-image: url("../img/ZineWeb/2.png");
+	min-height:50vh;
+	width: 70vh;
+	
+	}
+	.header-3{
+	padding-right: 40%;
+	letter-spacing: -1px;
+	background-image: url("../img/ZineWeb/3.png");
+	min-height:50vh;
+	width: 70vh;
+	
+	}
+	.header-4{
+	padding-right: 40%;
+	letter-spacing: -1px;
+	background-image: url("../img/ZineWeb/4.png");
+	min-height:50vh;
+	width: 70vh;
+	
+	}
+	.header-5{
+	padding-right: 40%;
+	letter-spacing: -1px;
+	background-image: url("../img/ZineWeb/5.png");
+	min-height:50vh;
+	width: 70vh;
+	
+	}.header-6{
+	padding-right: 40%;
+	letter-spacing: -1px;
+	background-image: url("../img/ZineWeb/6.png");
+	min-height:50vh;
+	width: 70vh;
+	
+	}
+	.header-7{
+	padding-right: 40%;
+	letter-spacing: -1px;
+	background-image: url("../img/ZineWeb/7.png");
+	min-height:50vh;
+	width: 70vh;
+	
+	}
 	
 }
 
