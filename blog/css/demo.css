@@ -164,80 +164,112 @@ section p span{
 .header-1{
 	padding: 5em 2em;
 	letter-spacing: -1px;
-	background-image: url("../img/ZineWeb/1.png") ;
-   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	background-image: url("../img/ZineWeb/1.png");
+	min-height:60vh;
+	width: 115vh;
+	 -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	
 	
 }
 .header-2{
 	padding: 5em 2em;
 	letter-spacing: -1px;
 	background-image: url("../img/ZineWeb/2.png");
-	  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+		min-height:60vh;
+	width: 115vh;
+	 -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	
 }
 .header-3{
 	padding: 5em 2em;
 	letter-spacing: -1px;
 	background-image: url("../img/ZineWeb/3.png");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	min-height:60vh;
+	width: 115vh;
+	 -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	
 	
 }
 .header-4{
 	padding: 5em 2em;
 	letter-spacing: -1px;
 	background-image: url("../img/ZineWeb/4.png");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	min-height:60vh;
+	width: 115vh;
+	 -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	
 	
 }
 .header-5{
 	padding: 5em 2em;
 	letter-spacing: -1px;
 	background-image: url("../img/ZineWeb/5.png");
-	  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	min-height:60vh;
+	width: 115vh;
+	 -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	
 	
 }
 .header-6{
 	padding: 5em 2em;
 	letter-spacing: -1px;
 	background-image: url("../img/ZineWeb/6.png");
-	  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	min-height:60vh;
+	width: 115vh;
+	 -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	
 	
 }
 .header-7{
 	padding: 5em 2em;
 	letter-spacing: -1px;
 	background-image: url("../img/ZineWeb/7.png");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	min-height:60vh;
+	width: 115vh;
+	 -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	
 	
 }
 .header-8{
 	padding: 5em 2em;
 	letter-spacing: -1px;
 	background-image: url("../img/ZineWeb/8.png");
-	  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	min-height:60vh;
+	width: 115vh;
+	 -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	
 	
 }
 /* To Navigation Style */
