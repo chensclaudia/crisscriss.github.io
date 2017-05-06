@@ -1,0 +1,236 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600);
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src: url("../fonts/codropsicons/codropsicons.eot");
+	src: url("../fonts/codropsicons/codropsicons.eot?#iefix") format("embedded-opentype"), url("../fonts/codropsicons/codropsicons.woff") format("woff"), url("../fonts/codropsicons/codropsicons.ttf") format("truetype"), url("../fonts/codropsicons/codropsicons.svg#codropsicons") format("svg");
+}
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.cf:before,
+.cf:after {
+	content: '';
+	display: table;
+}
+.cf:after {
+	clear: both;
+}
+body {
+	background: #DAFAF8;
+	color: #37474f;
+	font-weight: 400;
+	font-size: 1em;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+.support {
+	font-weight: bold;
+	padding: 2em 0 0 0;
+	font-size: 1.4em;
+	color: #ee2563;
+	display: none;
+}
+a {
+	color: #7986cb;
+	text-decoration: none;
+	outline: none;
+}
+a:hover,
+a:focus {
+	color: #3f51b5;
+}
+.hidden {
+	position: absolute;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	pointer-events: none;
+}
+.container {
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+.content {
+	padding: 0 1em 4.5em;
+	z-index: 1;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.content h2 {
+	margin: 0 0 2em;
+}
+.content p {
+	margin: 1em 0;
+	padding: 0 0 2em;
+	font-size: 0.85em;
+}
+.box {
+	padding: 4.5em 0;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+
+/* Header */
+.codrops-header {
+	padding: 3em 190px 0;
+	letter-spacing: -1px;
+}
+.codrops-header h1 {
+	font-weight: 200;
+	font-size: 4em;
+	line-height: 1;
+	margin-bottom: 0;
+}
+.codrops-header h1 span {
+	display: block;
+	font-size: 40%;
+	letter-spacing: 0;
+	padding: 0.5em 0 1em 0;
+	color: #A8B3B8;
+}
+
+/* Top Navigation Style */
+
+.main-logo{
+	height: auto;
+  	width: 20%;
+}
+
+.media-item:hover .media-item__img,
+.media-item:focus .media-item__img {
+	opacity: 1;
+}
+.media-item__title {
+	font-size: 0.85em;
+	margin: 0;
+	padding: 0.5em;
+}
+@media screen and (max-width:50em) {
+	.codrops-header {
+		padding: 4em 10% 0;
+	}
+}
+@media screen and (max-width:40em) {
+	.codrops-header h1 {
+		font-size: 2.8em;
+	}
+}
+
+/* About Clinica Grids */
+
+.content-grids{
+	padding: 0 1em 5em;
+	z-index: 1;
+	max-width: 1000px;
+	margin: 0 auto;
+	background: #ebf0f2;
+}
+.grid {
+	padding: 20px 20px 100px 20px;
+	max-width: 1300px;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+
+.grid li {
+	display: inline-block;
+	width: 440px;
+	margin: 0;
+	padding: 20px;
+	text-align: left;
+	position: relative;
+}
+
+.grid figure {
+	margin: 0;
+	position: relative;
+}
+
+.grid figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background: #2c3f52;
+	color: #ed4e6e;
+}
+
+.grid figcaption h3 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+
+.grid figcaption a {
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 2px;
+	display: inline-block;
+	background: #ed4e6e;
+	color: #fff;
+}
+
+/* Caption Style 1 */
+.cs-style-1 figcaption {
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	text-align: center;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+.no-touch .cs-style-1 figure:hover figcaption,
+.cs-style-1 figure.cs-hover figcaption {
+	opacity: 1;
+	-webkit-transform: translate(15px, 15px);
+	-moz-transform: translate(15px, 15px);
+	-ms-transform: translate(15px, 15px);
+	transform: translate(15px, 15px);
+}
+
+.cs-style-1 figcaption h3 {
+	margin-top: 70px;
+}
+
+.cs-style-1 figcaption span {
+	display: block;
+}
+
+.cs-style-1 figcaption a {
+	margin-top: 30px;
+}
+
+
+@media screen and (max-width: 31.5em) {
+	.grid {
+		padding: 10px 10px 100px 10px;
+	}
+	.grid li {
+		width: 100%;
+		min-width: 300px;
+	}
+}
