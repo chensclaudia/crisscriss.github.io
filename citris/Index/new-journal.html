@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Mental Health App</title>
+		<meta name="description" content="Mental Health App" />
+		<meta name="keywords" content="Mental Health, App, Graph Visualization" />
+		<meta name="author" content="madebycris.com, debparna" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/vicons-font.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/buttons.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+
+		<script src="js/modernizr3.custom.js"></script>
+
+		<!--[if IE]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="container">
+			<header class="codrops-header smaller-font">
+				<h1>Over the past 2 weeks, how often have you been bothered by any of the following problems?</h1>
+			</header>
+			<section class="content bg-1">
+				<div class="main clearfix">
+				<form id="nl-form" class="nl-form">
+					<span>1.)</span> I've had little interest or pleasure in doing things
+					<select>
+						<option value="1" selected>Not At All</option>
+						<option value="2">Several Days</option>
+						<option value="3">More Than Half the Days</option>
+						<option value="4">Nearly Every Day</option>
+					</select>
+					<br /><span>2.)</span>  I've felt down, depressed or hopeless
+					<select>
+						<option value="1" selected>Not At All</option>
+						<option value="2">Several Days</option>
+						<option value="3">More Than Half the Days</option>
+						<option value="4">Nearly Every Day</option>
+					</select>
+					<br /><span>3.)</span>  I've had trouble falling asleep, staying asleep, or sleeping too much
+					<select>
+						<option value="1" selected>Not At All</option>
+						<option value="2">Several Days</option>
+						<option value="3">More Than Half the Days</option>
+						<option value="4">Nearly Every Day</option>
+					</select>
+					<br /><span>4.)</span>  I've felt tired or with little energy
+					<select>
+						<option value="1" selected>Not At All</option>
+						<option value="2">Several Days</option>
+						<option value="3">More Than Half the Days</option>
+						<option value="4">Nearly Every Day</option>
+					</select>
+					<br /><span>5.)</span>  I've had poor appetit or overeating
+					<select>
+						<option value="1" selected>Not At All</option>
+						<option value="2">Several Days</option>
+						<option value="3">More Than Half the Days</option>
+						<option value="4">Nearly Every Day</option>
+					</select>
+					<br /><span>6.)</span> I've felt bad about myself, or felt like i've let myself or other down
+					<select>
+						<option value="1" selected>Not At All</option>
+						<option value="2">Several Days</option>
+						<option value="3">More Than Half the Days</option>
+						<option value="4">Nearly Every Day</option>
+					</select>
+					<br /><span>7.)</span>  I've had trouble concentrating on things, such as reading or watching things
+					<select>
+						<option value="1" selected>Not At All</option>
+						<option value="2">Several Days</option>
+						<option value="3">More Than Half the Days</option>
+						<option value="4">Nearly Every Day</option>
+					</select>
+					<br /><span>8.)</span>  I've been moving or speaking slowly, feelt fidgety or resltess that is more than usual, 
+					<select>
+						<option value="1" selected>Not At All</option>
+						<option value="2">Several Days</option>
+						<option value="3">More Than Half the Days</option>
+						<option value="4">Nearly Every Day</option>
+					</select>
+					<br/><span>9.)</span>  I've had thoughts that I would be better of if I didn't exist or thoughts of hurting myself,  
+					<select>
+						<option value="1" selected>Not At All</option>
+						<option value="2">Several Days</option>
+						<option value="3">More Than Half the Days</option>
+						<option value="4">Nearly Every Day</option>
+					</select>
+					<br/><span>10.)</span>  If I had problems with any of the previous questions, how difficult have these problems made it for me to: Do my work? Take care of things at home? Get along with other people? 
+					<select>
+						<option value="1" selected>Not difficult at all</option>
+						<option value="2">Somewhat difficult</option>
+						<option value="3">Very Difficult</option>
+						<option value="4">Extremely difficult</option>
+					</select>
+<br>
+I'd like to mention that,  
+ <input type="text" value="" placeholder="I've felt like..." data-subline="For example: <em>people don't acknoledge me</em> or <em>my mental health is hurting me</em>"/>
+					<div class="nl-submit-wrap">
+						<button class="nl-submit" type="submit">Submit Journal</button>
+					</div>
+					<div class="nl-overlay"></div>
+				</form>
+			</div>
+			
+			</section>
+			<!-- Related demos -->
+		</div><!-- /container -->
+		<script>
+			(function() {
+				var isSafari = !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/);
+				if(isSafari) {
+					document.getElementById('support-note').style.display = 'block';
+				}
+			})();
+		</script>
+	<script src="js/toucheffects.js"></script>
+	<script src="js/nlform.js"></script>
+		<script>
+			var nlform = new NLForm( document.getElementById( 'nl-form' ) );
+		</script>
+
+	</body>
+</html>

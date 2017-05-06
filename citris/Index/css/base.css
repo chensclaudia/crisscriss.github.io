@@ -223,8 +223,19 @@ a:focus {
 .cs-style-1 figcaption a {
 	margin-top: 30px;
 }
-
-
+#charts{
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		align-items: center;
+	}
+	.charts {
+		align-content: center;
+		padding: 10%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+}
 @media screen and (max-width: 31.5em) {
 	.grid {
 		padding: 10px 10px 100px 10px;
