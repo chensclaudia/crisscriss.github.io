@@ -110,6 +110,11 @@ span {
     color: #044d92;
     background-color: #FFF2E9;
 }
+
+.content-main a{
+    color: #044d92;
+    text-decoration: none;
+}
 .contact {
     font-family: 'Sofia Pro Normal';
     display: flex;
