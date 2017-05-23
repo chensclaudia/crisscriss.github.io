@@ -1020,8 +1020,9 @@ header.sticky {
 }
 @media screen and (max-width:767px) {
     .header-social-nav {
-        padding-right: 30px;
-        padding-left: 30px;
+        padding-right: 50px;
+        padding-left: 20px;
+        padding-bottom: 90px;
         display: block;
         opacity: 0;
         transition: opacity .5s cubic-bezier(.23, 1, .32, 1)
