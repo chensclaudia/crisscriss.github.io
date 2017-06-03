@@ -75,6 +75,10 @@ img {
 svg:not(:root) {
     overflow: hidden
 }
+
+svg{
+    position: absolute;
+}
 code, kbd, pre, samp {
     font-family: monospace, monospace;
     font-size: 1em
