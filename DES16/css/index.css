@@ -1,0 +1,25 @@
+body {
+	background-color: #fff1f1;
+}
+header {
+	font-family: 'Helvetica';
+	font-weight: 200;
+}
+header h1{
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 2em;
+	font-weight: 700;
+	font-size: 32px;
+}
+header h2{
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 4em;
+	font-weight: 200;
+	font-size: 1em;
+}
+section{
+	margin: 2em;
+	
+}
