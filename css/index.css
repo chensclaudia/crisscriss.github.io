@@ -92,7 +92,8 @@ span {
     transform: rotate(-135deg);
 }
 .content-main {
-    font-family: 'Noc';
+    font-family: 'Helvetica';
+    font-weight: 300;
     font-size: 36px;
     display: flex;
     justify-content: center;
