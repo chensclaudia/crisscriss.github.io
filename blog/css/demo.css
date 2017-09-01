@@ -103,10 +103,11 @@ section p span{
 }
 
 .header-snowden{
-	padding: 5em 2em;
-	letter-spacing: -1px;
-	background-image: url("../img/Snowden.jpg");
-	min-height: 30em;
+	background-image: url("../img/Snowden.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .header-meta{
 	padding: 5em 2em;
@@ -182,120 +183,68 @@ section p span{
 	
 }
 .header-2{
-	padding: 5em 2em;
-	letter-spacing: -1px;
-	background-image: url("../img/ZineWeb/2.png");
-		min-height:90vh;
-	width: 115vh;
-	 -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-		padding-right: 100%;
-	display: flex;
-	justify-content: flex-end;
+
+	background-image: url("../img/ZineWeb/2.png")  no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 	
 }
 .header-3{
-	padding: 5em 2em;
-	letter-spacing: -1px;
-	background-image: url("../img/ZineWeb/3.png");
-	min-height:90vh;
-	width: 115vh;
-	 -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	padding-right: 100%;
-	display: flex;
-	justify-content: flex-end;
+
+	background-image: url("../img/ZineWeb/3.png")  no-repeat center center fixed;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	
 	
 }
 .header-4{
-	padding: 5em 2em;
-	letter-spacing: -1px;
-	background-image: url("../img/ZineWeb/4.png");
-	min-height:90vh;
-	width: 115vh;
-	 -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	padding-right: 100%;
-	display: flex;
-	justify-content: flex-end;
+	background-image: url("../img/ZineWeb/4.png")  no-repeat center center fixed;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	
 	
 }
 .header-5{
-	padding: 5em 2em;
-	letter-spacing: -1px;
-	background-image: url("../img/ZineWeb/5.png");
-	min-height:90vh;
-	width: 115vh;
-	 -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	padding-right: 100%;
-	display: flex;
-	justify-content: flex-end;
+	background-image: url("../img/ZineWeb/5.png")  no-repeat center center fixed;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	
 	
 }
 .header-6{
-	padding: 5em 2em;
-	letter-spacing: -1px;
-	background-image: url("../img/ZineWeb/6.png");
-	min-height:90vh;
-	width: 115vh;
-	 -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	padding-right: 100%;
-	display: flex;
-	justify-content: flex-end;
+	background-image: url("../img/ZineWeb/6.png")  no-repeat center center fixed;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	
 	
 }
 .header-7{
-	padding: 5em 2em;
-	letter-spacing: -1px;
-	background-image: url("../img/ZineWeb/7.png");
-	min-height:90vh;
-	width: 115vh;
-	 -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	padding-right: 100%;
-	display: flex;
-	justify-content: flex-end;
+
+	background-image: url("../img/ZineWeb/7.png")  no-repeat center center fixed;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	
 	
 }
 .header-8{
-	padding: 5em 2em;
-	letter-spacing: -1px;
-	background-image: url("../img/ZineWeb/8.png");
-	min-height:90vh;
-	width: 115vh;
-	 -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	padding-right: 100%;
-	display: flex;
-	justify-content: flex-end;
+	background-image: url("../img/ZineWeb/8.png")  no-repeat center center fixed;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	
 	
 }
