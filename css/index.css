@@ -109,11 +109,10 @@ span {
 }
 .content-main:hover u {
     color: #044d92;
-    background-color: #FFF2E9;
 }
 
 .content-main a{
-    color: #5C5C5C;
+    color: #044d92;
     border-bottom: none;
 }
 .contact {
