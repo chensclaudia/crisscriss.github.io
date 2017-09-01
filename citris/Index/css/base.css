@@ -21,7 +21,7 @@
 	clear: both;
 }
 body {
-	background: #DAFAF8;
+	background: #fff;
 	color: #37474f;
 	font-weight: 400;
 	font-size: 1em;
@@ -56,7 +56,7 @@ a:focus {
 	overflow: hidden;
 }
 .content {
-	padding: 0 1em 4.5em;
+	padding: 0 1em 0em;
 	z-index: 1;
 	max-width: 1000px;
 	margin: 0 auto;
