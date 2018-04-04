@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ECS 163 Final Project</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/lib/reset.css">
+    <link rel="stylesheet" href="styles/lib/jquery.fullpage.css">
+    <link rel="stylesheet" href="styles/lib/leaflet.css">
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+
+  <body>
+    <div id="main">
+      <div class="section title">
+        <div class="inner-wrap">
+          <div class="title-wrap">
+            <h1>POLICE VIOLENCE</h1>
+            <h2 class="red">THE HIDDEN NUMBERS OF AMERICA'S LAW ENFORCEMENT</h2>
+          </div>
+        </div>
+        <div class="title-stat">
+          <h4>
+            <span class="count red bold">2535</span><br />
+            <span class="sub-title">People Killed by Police 2015-2017</span>
+          </h4>
+        </div>
+      </div>
+
+      <div class="section frequency">
+        <div id="heatmap-container" class="heatmap">
+          <h4>
+            <span>POLICE SHOOTINGS PER DAY IN <span class="red bold">2015 - 2017</span></span>
+          </h4>
+          <div class="main-container">
+            <div class="left-container">
+              <div class="year red">2015</div>
+              <div id="calendar-heatmap-2015" class="calendar-heatmap"></div>
+              <div class="year red">2016</div>
+              <div id="calendar-heatmap-2016" class="calendar-heatmap"></div>
+            </div>
+            <div class="right-container">
+              <div class="year red">2017</div>
+              <div id="calendar-heatmap-2017" class="calendar-heatmap"></div>
+              <div class="inner-wrap">
+                <h4>
+                  <span>POLICE SHOOTINGS HAPPEN AT AN AVERAGE OF <span class="red bold avg-count">3</span> PER DAY</span>
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section explore">
+        <div id="map"></div>
+        <div id="cards" class="cards"></div>
+      </div>
+
+      <div class="section explore">
+        <div class="container">
+          <div class="top-container parallelCoordinates" id="parallelCoordinates-container">
+            <h4>Number of Murders <span class="lowercase">vs</span> <span class="red">Poverty Rate and Income</span></h4>
+            <svg id="parallelCoordinates"></svg>
+          </div>
+          <div class="bottom-container">
+            <div id="treesection"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section piechart">
+        <div class="donut-container">
+          <h4>Victim fleeing the scene</h4>
+          <div id="fleeing-donut" class="donut"></div>
+        </div>
+        <div class="donut-container">
+          <h4>Victim Mental Health Issues</h4>
+          <div id="mental-health-donut" class="donut"></div>
+        </div>
+        <div class="donut-container">
+          <h4>Police Body Camera Present At Scene</h4>
+          <div id="body-cam-donut" class="donut"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts/lib/jquery-3.3.1.min.js"></script>
+    <script src="scripts/lib/jquery.fullpage.min.js"></script>
+    <script src="scripts/lib/leaflet.js"></script>
+    <script src="scripts/lib/leaflet-providers.js"></script>
+    <script src="scripts/lib/d3.v4.min.js"></script>
+    <script src="scripts/lib/d3-scale-chromatic.v1.min.js"></script>
+
+    <script src="data/us-states.js"></script>
+
+    <script src="scripts/cards.js"></script>
+    <script src="scripts/map.js"></script>
+    <script src="scripts/calendar-heatmap.js"></script>
+    <script src="scripts/donut.js"></script>
+    <script src="scripts/parallelCoordinates.js"></script>
+    <script src="scripts/tree-map.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

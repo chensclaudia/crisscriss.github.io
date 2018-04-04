@@ -1,0 +1,417 @@
+/* Base element styles */
+html,
+body {
+  font: 12px/1.231 Roboto, sans-serif;
+  background: rgba(0, 0, 0, 0.8) fixed;
+}
+
+span {
+  font-size: 12px;
+}
+
+img {
+  width: 100%;
+}
+
+/* Library overrides */
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background: #f00 !important;
+}
+
+/* Section styles */
+.fp-tableCell {
+  display: block;
+}
+
+.red {
+  color: #f00 !important;
+}
+
+.bold {
+  font-weight: 400 !important;
+}
+
+.lowercase {
+  text-transform: lowercase !important;
+}
+
+.main-container {
+  display: flex;
+}
+
+.right-container,
+.left-container {
+  width: 50%;
+  height: 100vh;
+}
+
+.top-container,
+.bottom-container {
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+}
+
+/* Title */
+.inner-wrap h1 {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  left: 0;
+  color: #fff;
+  font: normal 400 95px/1.1 Roboto, sans-serif;
+  letter-spacing: .016em;
+  white-space: nowrap;
+  z-index: 10;
+}
+
+.inner-wrap h2 {
+  position: absolute;
+  top: 32%;
+  right: 0;
+  left: 0;
+  color: #c8c8c8;
+  font: normal 400 24px/2.2 Roboto, sans-serif;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+.title-wrap {
+  text-align: center;
+  height: 223px;
+}
+
+.title-stat h4 {
+  position: absolute;
+  bottom: 150px;
+  right: 0;
+  left: 0;
+  text-align: center;
+  line-height: 1.0;
+  z-index: 999;
+}
+
+.title-stat h4 span,
+.frequency h4 span {
+  font-size: 50px;
+  font-weight: 100;
+  color: #fff;
+  background-color: rgba(0,0,0,0.4);
+  text-transform: uppercase;
+}
+
+/* Frequency section */
+.frequency .inner-wrap h4 {
+  position: absolute;
+  bottom: 150px;
+  right: 40px;
+  width: 580px;
+  text-align: right;
+  line-height: 1.0;
+  z-index: 999;
+}
+
+.frequency p {
+  position: absolute;
+  top: 350px;
+  width: 454px;
+  font: 300 18px/27px Roboto, sans-serif;
+  left: 45px;
+  font-weight: 100;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  padding: 10px 0 12px;
+  color: #fff;
+}
+
+/* Calendar heatmap */
+.heatmap {
+  position: absolute;
+  top: 3%;
+  right: 0;
+  left: 0;
+  height: 100%;
+  text-align: center;
+}
+
+.calendar-heatmap {
+  margin-left: 4px;
+}
+
+.month {
+  margin-right: 4px;
+  margin-top: 20px;
+}
+
+.month-name {
+  margin-bottom:10px;
+  fill: #fff;
+}
+
+.day.hover {
+  stroke: #6d6E70;
+  stroke-width: 2;
+}
+
+.year {
+  font-size: 24px;
+}
+
+#pc-tooltip,
+#tooltip {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 5px 8px;
+}
+
+.tooltip-count {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Explore section */
+/* Map */
+#map {
+  position: relative;
+  height: 50vh;
+}
+
+.info {
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+
+.info h4 {
+  margin: 0 0 5px;
+  color: #777;
+}
+
+.legend {
+   text-align: left;
+   line-height: 18px;
+   color: #555;
+}
+
+.legend i {
+   width: 18px;
+   height: 18px;
+   float: left;
+   margin-right: 8px;
+   opacity: 0.7;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  padding: 1.5%;
+}
+
+.card {
+  position: relative;
+  margin: 5px;
+  padding: 0 5px;
+  min-width: 150px;
+  background: #fefff9;
+  border-radius: 4px;
+  color: #363636;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.card-1 {
+  box-shadow: inset 0 0 0 4px red;
+  stroke: red;
+}
+
+.card-2 {
+  box-shadow: inset 0 0 0 4px blue;
+  stroke: blue;
+}
+
+.card-3 {
+  box-shadow: inset 0 0 0 4px green;
+  stroke: green;
+}
+
+.card-4 {
+  box-shadow: inset 0 0 0 4px purple;
+  stroke: purple;
+}
+
+.card-5 {
+  box-shadow: inset 0 0 0 4px #66ccff;
+  stroke: #66ccff;
+}
+
+.card-6 {
+  box-shadow: inset 0 0 0 4px orange;
+  stroke: orange;
+  stoke-width: 2px;
+}
+
+.card:hover {
+  opacity: 0.8;
+}
+
+.card .city {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.card .death-count {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.card .police-murders {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+/* Parallel coordinates */
+.parallelCoordinates {
+  text-align: center;
+}
+
+.parallelCoordinates h4,
+.parallelCoordinates h4 span {
+  margin-top: 10px;
+  font-size: 28px;
+  font-weight: 100;
+  color: white;
+  text-transform: uppercase;
+}
+
+.parallelCoordinates h4 span.red {
+  font-weight: 300;
+}
+
+.legend line {
+  stroke-width: 3px;
+}
+
+.foreground path {
+  fill: none;
+  stroke-opacity: 1;
+  stroke-width: 3px;
+}
+
+.foreground path.fade {
+  stroke: #fff;
+  stroke-opacity: .05;
+}
+
+.brush .extent {
+  fill-opacity: .3;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+.parallelCoordinates .axis line, .parallelCoordinates .axis path {
+  fill: none;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+.parallelCoordinates .axis text {
+  text-shadow: 0 1px 0 #fff;
+  cursor: move;
+  fill: #fff;
+  font-size: 12px;
+}
+
+/* Treemap */
+#treesection {
+     position: relative;
+     /* width: 100px;
+     margin-left: 18%; */
+}
+#treesection svg {
+  color: white;
+  background-color: lightgray;
+}
+ #treesection2 {
+     position: relative;
+}
+ .node {
+     cursor: pointer;
+     border: solid 1px white;
+     overflow: hidden;
+     position: absolute;
+     text-indent: 2px;
+}
+ .node-label {
+     font-size: 8pt;
+     padding: 4px;
+     padding-bottom: 0;
+     line-height: 1em;
+     white-space: pre;
+}
+ .node-value {
+     padding-left: 4px;
+     font-weight: bold;
+     font-size: 8pt;
+     margin-top: 1px;
+}
+ .subtitle {
+     margin-top: 0;
+     color: #9b9b9b;
+     font-size: 11pt;
+}
+ .legend {
+     position: relative;
+     z-index: 999;
+     display: inline !important;
+}
+.container-tree{
+  margin: 1em;
+  display: flex;
+  max-width: 400px
+
+}
+
+/* Section Animated Pie Charts */
+.piechart .fp-tableCell {
+  display: flex;
+  text-align: center;
+}
+
+.donut-container {
+  width: 33%;
+}
+
+.donut-container h4 {
+  margin: 150px 5px 50px 5px;
+  padding: 10px 15px;
+  min-height: 88px;
+  font-size: 35px;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: white;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.donut g text{
+  color:  red;
+  fill:  red;
+  font-size: 65px;
+}
+
+path.color0 {
+  fill: red;
+}
+
+path.color1 {
+  fill: grey;
+}

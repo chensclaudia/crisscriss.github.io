@@ -1,0 +1,630 @@
+{
+  "All": [
+    {
+      "city": "Los Angeles",
+      "count": 39
+    },
+    {
+      "city": "Houston",
+      "count": 26
+    },
+    {
+      "city": "Miami",
+      "count": 17
+    }
+  ],
+  "Arkansas": [
+    {
+      "city": "Fairbanks",
+      "count": 5
+    },
+    {
+      "city": "Anchorage",
+      "count": 3
+    },
+    {
+      "city": "Wasilla",
+      "count": 2
+    }
+  ],
+  "Alabama": [
+    {
+      "city": "Huntsville",
+      "count": 4
+    },
+    {
+      "city": "Phenix City",
+      "count": 4
+    },
+    {
+      "city": "Brimmingham",
+      "count": 3
+    }
+  ],
+  "Arkansas": [
+    {
+      "city": "Little Rock",
+      "count": 4
+    },
+    {
+      "city": "Benton",
+      "count": 2
+    },
+    {
+      "city": "Fayetteville",
+      "count": 2
+    }
+  ],
+  "Arizona": [
+    {
+      "city": "Phoenix",
+      "count": 14
+    },
+    {
+      "city": "Tuscon",
+      "count": 14
+    },
+    {
+      "city": "Glendale",
+      "count": 7
+    }
+  ],
+  "California": [
+    {
+      "city": "Los Angeles",
+      "count": 39
+    },
+    {
+      "city": "Bakersfield",
+      "count": 13
+    },
+    {
+      "city": "Fresno",
+      "count": 11
+    },
+    {
+      "city": "Long Beach",
+      "count": 11
+    },
+    {
+      "city": "San Francisco",
+      "count": 11
+    },
+    {
+      "city": "San Jose",
+      "count": 11
+    }
+  ],
+  "Colorado": [
+    {
+      "city": "Denver",
+      "count": 11
+    },
+    {
+      "city": "Aurora",
+      "count": 6
+    },
+    {
+      "city": "Westminister",
+      "count": 6
+    }
+  ],
+  "Connecticut": [
+    {
+      "city": "State Average",
+      "count": 1
+    }
+  ],
+  "Dc": [
+    {
+      "city": "Washinton",
+      "count": 11
+    }
+  ],
+  "Delaware": [
+    {
+      "city": "Wilmington",
+      "count": 3
+    }
+  ],
+  "Florida": [
+    {
+      "city": "Miami",
+      "count": 17
+    },
+    {
+      "city": "Jacksonville",
+      "count": 11
+    },
+    {
+      "city": "Orlando",
+      "count": 9
+    }
+  ],
+  "Georgia": [
+    {
+      "city": "Atlanta",
+      "count": 7
+    },
+    {
+      "city": "Valdosta",
+      "count": 3
+    }
+  ],
+  "Hawaii": [
+    {
+      "city": "Hilo",
+      "count": 4
+    },
+    {
+      "city": "Honolulu",
+      "count": 2
+    }
+  ],
+  "Iowa": [
+    {
+      "city": "Des Moines",
+      "count": 3
+    },
+    {
+      "city": "Cedar Rapids",
+      "count": 2
+    }
+  ],
+  "Idaho": [
+    {
+      "city": "Boise",
+      "count": 5
+    }
+  ],
+  "Illinois": [
+    {
+      "city": "Chicago",
+      "count": 25
+    },
+    {
+      "city": "Bellveille",
+      "count": 2
+    },
+    {
+      "city": "Zion",
+      "count": 2
+    },
+    {
+      "city": "Metropolis",
+      "count": 2
+    }
+  ],
+  "Indiana": [
+    {
+      "city": "Indianapolis",
+      "count": 14
+    },
+    {
+      "city": "Fort Wayne",
+      "count": 4
+    },
+    {
+      "city": "Muncie",
+      "count": 3
+    }
+  ],
+  "Kansas": [
+    {
+      "city": "Wichita",
+      "count": 4
+    }
+  ],
+  "Kentucky": [
+    {
+      "city": "Louisville",
+      "count": 6
+    },
+    {
+      "city": "Elizabethtown",
+      "count": 2
+    },
+    {
+      "city": "Ownsboro",
+      "count": 3
+    }
+  ],
+  "Louisiana": [
+    {
+      "city": "Baton Rouge",
+      "count": 8
+    },
+    {
+      "city": "New Orleans",
+      "count": 7
+    },
+    {
+      "city": "Shreveport",
+      "count": 3
+    },
+    {
+      "city": "Houma",
+      "count": 3
+    }
+  ],
+  "Massachusetts": [
+    {
+      "city": "Boston",
+      "count": 5
+    },
+    {
+      "city": "Lynn",
+      "count": 4
+    }
+  ],
+  "Maryland": [
+    {
+      "city": "Baltimore",
+      "count": 8
+    },
+    {
+      "city": "Elkton",
+      "count": 3
+    }
+  ],
+  "Maine": [
+    {
+      "city": "Vassalboro",
+      "count": 2
+    },
+    {
+      "city": "Presque Isle",
+      "count": 2
+    }
+  ],
+  "Michigan": [
+    {
+      "city": "Detroit",
+      "count": 5
+    },
+    {
+      "city": "Dearborn",
+      "count": 2
+    },
+    {
+      "city": "Kentwood",
+      "count": 2
+    },
+    {
+      "city": "Wyoming",
+      "count": 2
+    }
+  ],
+  "Minnesota": [
+    {
+      "city": "St. Paul",
+      "count": 6
+    },
+    {
+      "city": "Minneapolis",
+      "count": 3
+    },
+    {
+      "city": "Burnsville",
+      "count": 2
+    }
+  ],
+  "Missouri": [
+    {
+      "city": "St. Louis",
+      "count": 15
+    },
+    {
+      "city": "Kansas City",
+      "count": 10
+    },
+    {
+      "city": "Springfield",
+      "count": 4
+    }
+  ],
+  "Mississippi": [
+    {
+      "city": "Iuka",
+      "count": 2
+    },
+    {
+      "city": "Southaven",
+      "count": 2
+    },
+    {
+      "city": "Columbus",
+      "count": 2
+    },
+    {
+      "city": "Tupelo",
+      "count": 2
+    },
+    {
+      "city": "Water Valley",
+      "count": 2
+    }
+  ],
+  "Montana": [
+    {
+      "city": "Billings",
+      "count": 4
+    }
+  ],
+  "NorthCarolina": [
+    {
+      "city": "Charlotte",
+      "count": 11
+    },
+    {
+      "city": "Durham",
+      "count": 4
+    },
+    {
+      "city": "Gastonia",
+      "count": 3
+    }
+  ],
+  "NorthDakota": [
+    {
+      "city": "State Average",
+      "count": 1
+    }
+  ],
+  "Nebraska": [
+    {
+      "city": "Omaha",
+      "count": 8
+    },
+    {
+      "city": "Lincoln",
+      "count": 3
+    }
+  ],
+  "NewHampshire": [
+    {
+      "city": "State Average",
+      "count": 1
+    }
+  ],
+  "NewJersey": [
+    {
+      "city": "Newark",
+      "count": 5
+    },
+    {
+      "city": "Camden",
+      "count": 3
+    },
+    {
+      "city": "Paterson",
+      "count": 3
+    }
+  ],
+  "NewMexico": [
+    {
+      "city": "Albuquerque",
+      "count": 14
+    },
+    {
+      "city": "Las Cruces",
+      "count": 5
+    }
+  ],
+  "Nevada": [
+    {
+      "city": "Las Vegas",
+      "count": 21
+    },
+    {
+      "city": "Reno",
+      "count": 8
+    },
+    {
+      "city": "North Las Vegas",
+      "count": 3
+    }
+  ],
+  "NewYork": [
+    {
+      "city": "New York",
+      "count": 10
+    },
+    {
+      "city": "Brooklyn",
+      "count": 5
+    }
+  ],
+  "Ohio": [
+    {
+      "city": "Columbus",
+      "count": 17
+    },
+    {
+      "city": "Cincinnati",
+      "count": 5
+    },
+    {
+      "city": "Akron",
+      "count": 4
+    },
+    {
+      "city": "Cleveland",
+      "count": 5
+    }
+  ],
+  "Oklahoma": [
+    {
+      "city": "Oklahoma City",
+      "count": 14
+    },
+    {
+      "city": "Tulsa",
+      "count": 12
+    }
+  ],
+  "Oregon": [
+    {
+      "city": "Portland",
+      "count": 7
+    },
+    {
+      "city": "Medford",
+      "count": 3
+    },
+    {
+      "city": "Beaverton",
+      "count": 3
+    }
+  ],
+  "Pennsylvania": [
+    {
+      "city": "Philadelphia",
+      "count": 9
+    },
+    {
+      "city": "Chester",
+      "count": 3
+    }
+  ],
+  "RhodeIsland": [
+    {
+      "city": "State Average",
+      "count": 1
+    }
+  ],
+  "SouthCarolina": [
+    {
+      "city": "North Charleston",
+      "count": 4
+    },
+    {
+      "city": "Greenville",
+      "count": 3
+    }
+  ],
+  "SouthDakota": [
+    {
+      "city": "Rapid City",
+      "count": 4
+    }
+  ],
+  "Tennessee": [
+    {
+      "city": "Nashville",
+      "count": 5
+    },
+    {
+      "city": "Memphis",
+      "count": 5
+    },
+    {
+      "city": "Chattanooga",
+      "count": 4
+    }
+  ],
+  "Texas": [
+    {
+      "city": "Houston",
+      "count": 26
+    },
+    {
+      "city": "San Antonio",
+      "count": 20
+    },
+    {
+      "city": "Austin",
+      "count": 16
+    },
+    {
+      "city": "Dallas",
+      "count": 9
+    },
+    {
+      "city": "Fort Worth",
+      "count": 8
+    },
+    {
+      "city": "El Paso",
+      "count": 7
+    }
+  ],
+  "Utah": [
+    {
+      "city": "Salt Lake City",
+      "count": 4
+    },
+    {
+      "city": "West Jordan",
+      "count": 2
+    },
+    {
+      "city": "Spanish Fork",
+      "count": 2
+    }
+  ],
+  "Virginia": [
+    {
+      "city": "Norfolk",
+      "count": 7
+    },
+    {
+      "city": "Richmond",
+      "count": 4
+    }
+  ],
+  "Vermont": [
+    {
+      "city": "Burlington",
+      "count": 2
+    }
+  ],
+  "Washington": [
+    {
+      "city": "Seattle",
+      "count": 6
+    },
+    {
+      "city": "Tacoma",
+      "count": 4
+    },
+    {
+      "city": "Vancouver",
+      "count": 4
+    },
+    {
+      "city": "Spokane",
+      "count": 4
+    }
+  ],
+  "Wisconsin": [
+    {
+      "city": "Milwaukee",
+      "count": 7
+    },
+    {
+      "city": "Eau Claire",
+      "count": 4
+    }
+  ],
+  "WestVirgina": [
+    {
+      "city": "Morgan Town",
+      "count": 2
+    },
+    {
+      "city": "Princeton",
+      "count": 2
+    }
+  ],
+  "Wyoming": [
+    {
+      "city": "Douglas",
+      "count": 2
+    },
+    {
+      "city": "Casper",
+      "count": 2
+    }
+  ]
+}
